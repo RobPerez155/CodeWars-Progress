@@ -5,6 +5,8 @@
 
 // If the input string is empty, return an empty string. The words in the input String will only contain valid consecutive numbers.
 
+
+// Solution
 function order(words){ 
   const wordArray = words.split(' ').sort(function(a,b){ //.split turns our string into an array
     return a.match(/\d/) - b.match(/\d/); // What .sort() is doing is shown below
