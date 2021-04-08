@@ -86,18 +86,3 @@ eight(dividedBy(three()))
 // We have a function called EIGHT & EIGHT takes an argument of DIVIDEDBY which takes and argument of THREE
 //                ---      8 / 3      ---
 // We then parseInt(8 / 3) and get 2 as our solution
-
-
-function eight(operation) {
-  return expression(8, operation)
-}
-
-function expression(number, operation){
-  if (!operation) {
-   return number 
-  } else {
-    return operation(number)
-  }
-}
-
-function three(operation) { return expression(3, operation)}
